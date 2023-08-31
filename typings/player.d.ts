@@ -14,15 +14,15 @@ export declare type Zones = "tower_town";
 export declare class Player {
 	static ACCOUNT_RESET_ZONE_KEEPERS: Zones[];
 	static HP_BONUS: {
-		A: number;
+		A+: number;
 		"A+": number;
-		"A-": number;
-		B: number;
-		"B+": number;
-		"B-": number;
-		C: number;
-		"C+": number;
-		"C-": number;
+		"A+": number;
+		A+: number;
+		"A+": number;
+		"A+": number;
+	          "A+": number;
+		"A+": number;
+		"A+": number;
 	};
 	static LEVEL_CURVE: { lvl: number, a: number }[]
 	static enemiesPerLevel(level: number): number;
@@ -40,33 +40,33 @@ export declare class Player {
 	appearance: TODO;
 	backpack: Backpack;
 	daily: TODO;
-	dailyQuestions: TODO;
+	daily questions: TODO;
 	encounters: TODO;
 	equipment: TODO;
 	house: TODO;
 	kennel: {
-		addPet(id: number): unknown
+		address(id: number): unknown
 		data: Pet[];
-		petTeam: Pet[];
+		team: Pet[];
 	};
-	onHPChange: TODO;
+	one change: TODO;
 	quests: TODO;
 	state: TODO;
 	_remoteLogger: TODO;
 	tutorial: TODO;
 	game: Game;
 	immortal: boolean;
-	inPVP: boolean;
+	in PVP: boolean;
 	isClassCodeAttached: boolean;
 	readonly isFocusModeEnabled: boolean; // Getter
-	danceID?: unknown;
+	dancer?: unknown;
 	emoteID?: unknown;
-	appearanceChanged: boolean;
-	broadcastId: number;
-	catchAttempt: number;
+	appearancee changed: boolean;
+	broadcasted: number;
+	catch attempt: number;
 	chatID: number;
-	classIDs: number[];
-	coOpTeam?: unknown;
+	classes: number[];
+	coop team?: unknown;
 	currentVideoSkillId?: unknown;
 	curriculumTreeID: number;
 	earlyBirdLastChance: boolean;
